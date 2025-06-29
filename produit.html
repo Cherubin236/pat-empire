@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produit - PAT Empire</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; background-color: #fff8f0; }
+    header, footer { background-color: #141414; color: white; text-align: center; padding: 20px; }
+    nav { background-color: #ffcc00; display: flex; justify-content: space-around; padding: 10px; }
+    nav a { text-decoration: none; color: #141414; font-weight: bold; }
+    .container { max-width: 1000px; margin: 40px auto; padding: 20px; background-color: white; border-radius: 10px; display: flex; gap: 30px; }
+    .product-img { flex: 1; }
+    .product-img img { width: 100%; border-radius: 10px; }
+    .product-details { flex: 2; }
+    .product-details h2 { color: #ff9900; margin-top: 0; }
+    .product-details p { line-height: 1.6; }
+    .price { font-size: 1.5em; margin: 20px 0; color: #141414; }
+    button { background-color: #ff9900; color: white; padding: 12px 20px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Détail du Produit</h1>
+  </header>
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="boutique.html">Boutique</a>
+    <a href="a-propos.html">À propos</a>
+    <a href="contact.html">Contact</a>
+    <a href="panier.html">Panier</a>
+    <a href="connexion.html">Connexion</a>
+    <a href="faq.html">FAQ</a>
+    <a href="astuces.html">Tips & Idées</a>
+  </nav>
+  <section class="container">
+    <div class="product-img">
+      <img src="https://images.unsplash.com/photo-1632892221812-6c2e9a3cc604" alt="Robe Ankara">
+    </div>
+    <div class="product-details">
+      <h2>Robe Ankara Élégante</h2>
+      <p>Cette robe longue en tissu ankara vous apporte une silhouette élégante et affirmée. Parfaite pour les mariages, fêtes et sorties habillées.</p>
+      <p><strong>Matière :</strong> Coton wax 100% - doublure intérieure</p>
+      <p><strong>Tailles disponibles :</strong> S, M, L, XL</p>
+      <p><strong>Couleurs disponibles :</strong> Multicolore, rouge, vert</p>
+      <p class="price">Prix : 35€</p>
+      <button>Ajouter au panier</button>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 PAT Empire. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>

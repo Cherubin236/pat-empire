@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panier - PAT Empire</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; background-color: #fff8f0; }
+    header, footer { background-color: #141414; color: white; text-align: center; padding: 20px; }
+    nav { background-color: #ffcc00; display: flex; justify-content: space-around; padding: 10px; }
+    nav a { text-decoration: none; color: #141414; font-weight: bold; }
+    .container { max-width: 800px; margin: 40px auto; padding: 20px; background-color: white; border-radius: 10px; }
+    h2 { text-align: center; color: #ff9900; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px; border-bottom: 1px solid #ccc; text-align: left; }
+    .total { text-align: right; margin-top: 20px; font-size: 1.2em; font-weight: bold; }
+    .btn-commande { background-color: #ff9900; color: white; border: none; padding: 12px 20px; border-radius: 5px; cursor: pointer; float: right; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Votre Panier</h1>
+  </header>
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="boutique.html">Boutique</a>
+    <a href="a-propos.html">À propos</a>
+    <a href="contact.html">Contact</a>
+    <a href="#">Panier</a>
+    <a href="connexion.html">Connexion</a>
+    <a href="faq.html">FAQ</a>
+    <a href="astuces.html">Tips & Idées</a>
+  </nav>
+  <section class="container">
+    <h2>Articles dans votre panier</h2>
+    <table>
+      <tr>
+        <th>Produit</th>
+        <th>Quantité</th>
+        <th>Prix</th>
+        <th>Total</th>
+      </tr>
+      <tr>
+        <td>Robe Ankara Élégante</td>
+        <td>1</td>
+        <td>35€</td>
+        <td>35€</td>
+      </tr>
+      <tr>
+        <td>Sac à main en pagne</td>
+        <td>2</td>
+        <td>25€</td>
+        <td>50€</td>
+      </tr>
+    </table>
+    <p class="total">Total à payer : 85€</p>
+    <button class="btn-commande">Passer la commande</button>
+  </section>
+  <footer>
+    <p>&copy; 2025 PAT Empire. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>

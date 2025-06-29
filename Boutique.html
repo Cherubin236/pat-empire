@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PAT Empire - Boutique</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; background-color: #fff8f0; }
+    header, footer { background-color: #141414; color: white; text-align: center; padding: 20px; }
+    nav { background-color: #ffcc00; display: flex; justify-content: space-around; padding: 10px; }
+    nav a { text-decoration: none; color: #141414; font-weight: bold; }
+    h2 { text-align: center; margin-top: 20px; color: #ff9900; }
+    .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 20px; }
+    .product-card { background-color: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); overflow: hidden; text-align: center; }
+    .product-card img { width: 100%; height: 300px; object-fit: cover; }
+    .product-card h3 { margin: 10px 0; }
+    .product-card p { margin: 5px 15px; color: #666; font-size: 0.9em; }
+    .product-card button { background-color: #ff9900; border: none; color: white; padding: 10px 20px; margin: 10px; border-radius: 5px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PAT Empire</h1>
+    <p>La mode africaine à portée de clic</p>
+  </header>
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="#">Boutique</a>
+    <a href="a-propos.html">À propos</a>
+    <a href="contact.html">Contact</a>
+    <a href="panier.html">Panier</a>
+    <a href="connexion.html">Connexion</a>
+    <a href="faq.html">FAQ</a>
+    <a href="astuces.html">Tips & Idées</a>
+  </nav>
+  <h2>Nos Produits</h2>
+  <section class="products">
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1632892221812-6c2e9a3cc604" alt="Robe Ankara">
+      <h3>Robe Ankara Élégante</h3>
+      <p>Une robe fluide parfaite pour vos sorties ou cérémonies.</p>
+      <button>Ajouter au panier</button>
+    </div>
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1611154155634-e7d02e16b6a4" alt="Sac Pagne">
+      <h3>Sac à main en pagne</h3>
+      <p>Élégance africaine et touche moderne dans un accessoire unique.</p>
+      <button>Ajouter au panier</button>
+    </div>
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1603399743015-b0e1b2f035eb" alt="Chemise wax">
+      <h3>Chemise Homme Wax</h3>
+      <p>Look chic et décontracté avec une chemise au style affirmé.</p>
+      <button>Ajouter au panier</button>
+    </div>
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1601841447934-d90cb3e76d68" alt="Jupe pagne">
+      <h3>Jupe taille haute</h3>
+      <p>Coupe flatteuse avec motifs africains vibrants.</p>
+      <button>Ajouter au panier</button>
+    </div>
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1618190110919-8df4c70a4cfd" alt="Tenue complète homme">
+      <h3>Tenue complète homme</h3>
+      <p>Style royal en tissu wax 100% coton.</p>
+      <button>Ajouter au panier</button>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 PAT Empire - Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
